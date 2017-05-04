@@ -3,9 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style type="text/css">
+		body{
+		text-align:center;
+		margin:0 auto;
+		}
+		#contenedor{
+		margin: 0 auto;
+		text-align:left;
+		width:70%;
+		}
+	</style>
 </head>
-<body>
+<body bgcolor="#E6E6FA">
 <h1>Pokemon</h1>
+	<select id="cosa">
+		<option value="Pokemon 1">Pokemon 1</option>
+	    <option value="Picachu">Picachu</option>
+	    <option value="Charmander">Charmander</option> 
+	</select>
+	<select id="cosa2">
+		<option value="Pokemon 2">Pokemon 2</option>
+	    <option value="Picachu">Picachu</option>
+	    <option value="Charmander">Charmander</option>
+	</select><br>
+	<input type="button" value="Atacar" onclick="ataque();">
+	<h3 id="resultado"></h3>
 <script type="text/javascript" src="assets/main.js"></script>	
 </body>
 </html>

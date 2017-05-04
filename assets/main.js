@@ -1,3 +1,5 @@
+function ataque(){
+
 function Pokemon(nombre, color, poderDeAtaque){
   this.nombre = nombre
   this.color = color
@@ -18,8 +20,15 @@ function Pokemon(nombre, color, poderDeAtaque){
   }
 }
 
-const Pikachu = new Pokemon ("Pikachu", "amarillo", 100)
-const Charmander = new Pokemon ("Charmander", "rojo", 200)
 
-Pikachu.atacar(Charmander)
-console.log(Charmander.vida)
+  var ataque1 = document.getElementById("cosa").value
+  var ataque2 = document.getElementById("cosa2").value
+  var pokemon1 = new Pokemon (cosa, "amarillo", 10)
+  var pokemon2 = new Pokemon (cosa2, "rojo", 30)
+  
+  var res = document.getElementById("resultado");
+  res.innerHTML = "hola";
+}
+
+
+
